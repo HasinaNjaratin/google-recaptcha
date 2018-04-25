@@ -1,0 +1,5 @@
+recaptcha.config:
+  title: 'Google ReCAPTCHA Settings'
+  description: 'Configure settings for Google ReCAPTCHA Module.'
+  route_name: recaptcha.config
+  parent: 'system.admin_config_development'

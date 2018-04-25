@@ -1,0 +1,15 @@
+<?php
+
+ /**
+  * Implements hook_theme().
+  */
+ function google_recaptcha_theme() {
+   return [
+     'input_recaptcha' => [
+       'template' => 're-captcha',
+       'variables' => [
+         'public_key' => ''
+       ],
+     ],
+   ];
+ }

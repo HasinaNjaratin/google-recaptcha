@@ -1,0 +1,7 @@
+recaptcha.config:
+  path: '/admin/config/g-recaptcha'
+  defaults:
+    _title: 'Google ReCAPTCHA Settings'
+    _form: '\Drupal\google_recaptcha\Form\ConfigurationForm'
+  requirements:
+    _permission: 'administer site configuration'

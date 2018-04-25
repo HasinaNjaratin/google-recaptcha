@@ -1,0 +1,6 @@
+name: Google ReCAPTCHA Module
+description: Google ReCAPTCHA elements type.
+package: Custom Module
+type: module
+version: 1.0
+core: 8.x
